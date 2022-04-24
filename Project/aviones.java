@@ -1,9 +1,14 @@
+/* 
+	Author:		green-vibes-coding ₪
+	URL:		-
+	Version:	1.0
+*/
 
 public class aviones {
 
 	private String matricula;									// 1.
 	
-	private String marca;										  // 2.
+	private String marca;										// 2.
 
 	private String modelo;										// 3.
 	
@@ -19,18 +24,18 @@ public class aviones {
 	
 	private int autonomia;										// 9.
 	
-	private int rumbo;								  			// 10.
+	private int rumbo;								  		// 10.
 	
 	private int combustible;						 			// 11.
 	
-	private int velocidad_maxima;							// 12.
+	private int velocidad_maxima;									// 12.
 	
 		
 	public aviones (String matricula, String marca, String modelo, int pilotos, String origen, String destino, int coordenada_x, int coordenada_y, int autonomia, int rumbo, int combustible, int velocidad_maxima) {
 		
 		this.matricula = matricula;								// 1.
 		
-		this.marca = marca;								  	  	// 2.
+		this.marca = marca;								  	// 2.
 		
 		this.modelo = modelo;							    		// 3.
 				
@@ -40,17 +45,17 @@ public class aviones {
 		
 		this.destino = destino;							  		// 6.
 		
-		this.coordenada_x = coordenada_x;					// 7.
+		this.coordenada_x = coordenada_x;							// 7.
 		
-		this.coordenada_y = coordenada_y;					// 8.
+		this.coordenada_y = coordenada_y;							// 8.
 		
-		this.autonomia = autonomia;						  	// 9.
+		this.autonomia = autonomia;						  		// 9.
 		
-		this.rumbo = rumbo;										    // 10.
+		this.rumbo = rumbo;									// 10.
 		
-		this.combustible = combustible;						// 11.
+		this.combustible = combustible;								// 11.
 		
-		this.velocidad_maxima = velocidad_maxima;	// 12.
+		this.velocidad_maxima = velocidad_maxima;						// 12.
 		
 	}
 		
